@@ -1,0 +1,260 @@
+/*headers*/
+#top-bar {
+	height: 28px;
+	width: 100%;
+	background-color: #414042;
+}
+
+#top-bar-txt {
+	color: #d8d8d8;
+	font-size: 11px;
+	text-align: center;
+	letter-spacing: 1.5px;
+	font-weight: bold;
+	padding: 8px;
+}
+
+#logo-signup {
+	height: 85px;
+}
+
+#logo {
+	width: 128px;
+	height: 47px;
+	float: left;
+	padding: 30px;
+}
+
+#signup-btn {
+	float: right;
+	width: 128px;
+	height: 48px;
+	background-color: #71b045;
+	color: #d8d8d8;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	border-radius: 3px;
+	margin-top: 30px;
+	margin-right: 30px;
+}
+
+/*hero & hero text*/
+#lrg-img {
+	height: 422px;
+	margin-right: 30px;
+	margin-left: 30px;
+	background-size: cover;
+	background-image: url("/images/target-bg.png");
+}
+
+#main-header-txt {
+	text-align: center;
+	font-size: 48px;
+	color: white;
+	padding-top: 70px;
+	height: 48px;
+}
+
+.p-header-txt {
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+	letter-spacing: -0.55px;
+	width: 28%;
+	margin: auto;
+	padding-bottom: 20px;
+}
+
+#disclaimer {
+	color: white;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	width: 42%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*input to get store data*/
+#input {
+	font-family: FontAwesome;
+	content: "\f041";
+	width: 260px;
+	height: 60px;
+	font-size: 16px;
+	color: #9f9f9f;
+	font-weight: bold;
+	text-align: center;
+}
+
+#inputBtn {
+	width: 139px;
+	height: 66px;
+	background-color: #71b045;
+	color: white;
+	font-size: 11px;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	padding-top: 4px;
+}
+
+/*Stores display data */
+#delivery-header {
+	color: #414042;
+	font-weight: bold;
+	font-size: 13px;
+	letter-spacing: 1.5px;
+	margin-top: 35px;
+}
+
+#stores-container {
+	display: flex;
+}
+
+.stores {
+	flex: 1;
+	margin-top: 5px;
+	margin-bottom: -20px;
+	padding: -20px;
+}
+
+.get-started-btn2 {
+	background-color: #71b045;
+	color: #d8d8d8;
+	height: 50px;
+	width: 194px;
+	margin-top: 60px;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.hidden {
+	display: none;
+}
+
+#store-launch-date {
+	color: #7b7b7b;
+	font-size: 13px;
+	letter-spacing: 1.5px;
+}
+
+/*About section & footer*/
+#about {
+	display: flex;
+}
+
+.about-imgs {
+	flex: 1;
+}
+
+#about-header {
+	color: #414042;
+	font-weight: bold;
+	font-size: 36px;
+	padding: 30px;
+	width: 40%;
+	margin: auto;
+}
+
+.about-imgs-header {
+	width: 48%;
+	margin: auto;
+}
+
+.about-description {
+	color: #7b7b7b;
+	font-weight: bold;
+	margin: auto;
+	width: 63%;
+	padding: 10px;
+}
+
+.get-started-btn {
+	background-color: #71b045;
+	color: #d8d8d8;
+	height: 60px;
+	width: 320px;
+	margin-top: 60px;
+	font-size: 11px;
+	font-weight: bold;
+	margin-bottom: 60px;
+}
+
+#footer {
+	background-color: #414042;
+	height: 75px;
+	color: #f7f4ea;
+}
+
+#footer-txt {
+	padding-top: 30px;
+	color: #d8d8d8;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+
+#errorCode {
+	color: #ef7c42;
+	font-size: 11px;
+	padding-right: 150px;
+}
+
+/*mobile responsive*/
+@media only screen and (max-width: 600px) {
+	#lrg-img {
+		height: 510px;
+		width: 100%;
+		background-size: cover;
+		background-image: url("/images/target-bg.png");
+		margin: 0;
+		padding-top: 7px;
+		bottom: 10px;
+	}
+
+	#top-bar {
+		width: 100%;
+	}
+
+	#logo-signup {
+		width: 100%;
+	}
+
+	#main-header-txt {
+		font-size: 53px;
+		color: white;
+		height: auto;
+		width: 360px;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin: 0;
+	}
+
+	#about {
+		flex-direction: column;
+	}
+
+	.p-header-txt {
+		padding-top: 20px;
+		font-weight: normal;
+		width: 90%;
+		margin: 0;
+		padding: 10px;
+	}
+
+	#inputBtn {
+		width: 328px;
+		margin-top: 15px;
+		height: 50px;
+	}
+
+	#input {
+		width: 320px;
+		height: 50px;
+	}
+
+	#disclaimer {
+		width: 90%;
+		font-weight: normal;
+	}
+}
