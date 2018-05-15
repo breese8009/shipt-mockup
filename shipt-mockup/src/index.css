@@ -193,7 +193,8 @@
 	font-size: 12px;
 	letter-spacing: 1px;
 }
-
+/*
+input error css*/
 #errorCode {
 	color: #ef7c42;
 	font-size: 11px;
@@ -256,5 +257,11 @@
 	#disclaimer {
 		width: 90%;
 		font-weight: normal;
+	}
+
+	#errorCode {
+		color: #ef7c42;
+		font-size: 11px;
+		padding-right: 1px;
 	}
 }

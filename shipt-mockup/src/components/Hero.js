@@ -44,7 +44,8 @@ class Hero extends Component {
         console.log(err);
         this.setState({
           valid: false,
-          input: ""
+          input: "",
+          stores: []
         });
       });
   }
