@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "../App.css";
 import FontAwesome from "react-fontawesome";
-import validator from "react-validation";
 import Stores from "./Stores";
 import About from "./About";
 import Headers from "./Headers";
@@ -44,7 +43,6 @@ class Hero extends Component {
         console.log(err);
         this.setState({
           valid: false,
-          input: "",
           stores: []
         });
       });
